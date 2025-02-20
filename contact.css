@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.main-section{
+    position: relative;
+    overflow: hidden;
+}
+.main {
+    height: 1100px;
+    width: 100vw;
+    background: #E6EAFD;
+    background-attachment: fixed; 
+    overflow: hidden;
+}
+.nav-bar{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    right: 80px;
+}
+.logo{
+    height: 80px;
+    width: 160px;
+    margin-right: 900px;
+}
+button{
+    margin-left: 30px;
+    background-color: transparent;
+    border: none;
+    color: #5B51D1;
+    font-size: 1.75rem;
+    font-weight: 800;
+    font-family: "Exo 2";
+}
+button:hover{
+    color: #FE44AA;
+    text-decoration: underline;
+    text-decoration-color: gray;
+    text-underline-offset: 5px;
+}
+.scroll{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.content{
+    padding-top: 100px;
+    height: 850px;
+    background: #E6EAFD;
+}
+
+.image{
+    display: flex;
+    padding-left: 40px;
+    padding-top: 40px;
+    gap: 200px;
+}
+#first{
+    width: 600px;
+    color: gray;
+    font-family: "Exo 2", serif;
+    font-size: 40px;
+   color:#27EF6B ; 
+}
+
+#second{
+    padding-left: 40px;
+    color: #FE44AA;
+    font-family: "Exo 2", serif;
+    font-size: 42px;
+}
+
+.content h3{
+    padding-left: 40px;
+    color: gray;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+.image img{
+    height: 400px;
+    width: 650px;
+    border-radius: 6px;
+    margin: 2px;
+    border:5px dashed #5B51D1 ;
+}
+.service{
+    font-family: "Montserrat Alternates", serif;
+    font-size: 1.5rem;
+    padding-top: 40px;
+    color: gray;
+}
+
+
+.made{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+footer{
+    width: 100vw;
+    clear: both;
+    bottom:0 !important;
+    padding: 0;
+    margin: 0 !important;
+    text-align: center;
+    background-color:  #E6EAFD;
+    color: gray;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-evenly;
+    color:gray;
+    font-size: 1.1rem;
+}
+.footer-content h2{
+    font-family: "Josefin Sans", serif;
+    font-size: 2rem;
+}
+.footer-content a{
+    text-decoration: none;
+    color:grey;
+}
+.address{
+    width: 400px;
+    height: 160px;
+    text-align: left;
+}
+.contact{
+    text-align: left;
+}
+.Email{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    text-decoration: none;
+}
+.social-media{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.social-media a{
+    padding: 3px;
+}

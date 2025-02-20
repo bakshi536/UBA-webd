@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.main-section{
+    position: relative;
+    overflow: hidden;
+}
+.main {
+    height: 1100px;
+    width: 100vw;
+    background: #E6EAFD;
+    background-attachment: fixed; 
+    overflow: hidden;
+}
+.nav-bar{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    right: 80px;
+}
+.logo{
+    height: 80px;
+    width: 160px;
+    margin-right: 900px;
+}
+button{
+    margin-left: 30px;
+    background-color: transparent;
+    border: none;
+    color: #5B51D1;
+    font-size: 1.75rem;
+    font-weight: 800;
+    font-family: "Exo 2";
+}
+button:hover{
+    color: #FE44AA;
+    text-decoration: underline;
+    text-decoration-color: gray;
+    text-underline-offset: 5px;
+}
+.scroll{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.text{
+    position: relative;
+    top:300px;
+    text-align: center;
+    font-size: 2rem;
+    color:  gray;
+}
+
+.main h1{
+    font-family: "Exo 2", serif;
+    font-size: 3.5rem;
+}
+.main h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    padding-top: 8px;
+    font-size: 2rem;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-underline-offset: 5px;
+}
+
+.main-second{
+    height: 1000px;
+    width: 100vw;
+    background-color: #E6EAFD;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+.main-third{
+    background: #FFF9C8;
+    width: 90vw;
+    margin-top: 50px;
+    padding: 30px;
+    border: 5px dashed #5B51D1;
+}
+
+.content-2 {
+    font-family: "Exo 2", serif;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+.content-3  {
+    font-family: "Montserrat Alternates", serif;
+    font-size: 18px;
+}
+.content-1{
+box-sizing: border-box;
+border: 5px dashed #5B51D1;
+color: white !important ;
+ width: 90vw;
+ height:300px;
+margin-top: 80px;
+padding: 20px;
+font-size:1.5rem;
+background-color:#FE44AA ;
+}
+.heading{
+    text-align:center;
+    font-size:1.2rem;
+    font-family: "Montserrat Alternates", serif;
+}
+.qualities{
+display: flex;
+align-items: center;
+justify-content: center;
+gap:100px;
+margin-top: 90px;
+}
+.quality{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quality img{
+   position: relative;
+   bottom: 50px;
+    height: 90px;
+    width: 100px;
+}
+.quality p{
+    justify-content: center;
+    position: relative;
+    bottom:20px;
+    font-family: "Montserrat Alternates", serif;
+}
+.made{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+footer{
+    width: 100vw;
+    clear: both;
+    bottom:0 !important;
+    padding: 0;
+    margin: 0 !important;
+    text-align: center;
+    background-color:  #E6EAFD;
+    color: gray;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-evenly;
+    color:gray;
+    font-size: 1.1rem;
+}
+.footer-content h2{
+    font-family: "Josefin Sans", serif;
+    font-size: 2rem;
+}
+.footer-content a{
+    text-decoration: none;
+    color:grey;
+}
+.address{
+    width: 400px;
+    height: 160px;
+    text-align: left;
+}
+.contact{
+    text-align: left;
+}
+.Email{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    text-decoration: none;
+}
+.social-media{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.social-media a{
+    padding: 3px;
+}
